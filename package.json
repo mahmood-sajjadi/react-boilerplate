@@ -1,0 +1,77 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "@testing-library/dom": "^7.23.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^10.4.9",
+    "@testing-library/user-event": "^12.1.3",
+    "@types/jest": "^26.0.10",
+    "@types/node": "^14.6.2",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "babel-plugin-emotion": "^10.0.33",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "emotion-theming": "^10.0.27",
+    "jest-emotion": "^10.0.32",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "4.0.0-next.77",
+    "typescript": "~3.8.0"
+  },
+  "scripts": {
+    "checkyarn": "echo \"$npm_execpath\" | grep -q \"yarn\\.js$\" || (echo '⚠️  Use yarn not npm!  ⚠️' && echo && exit 1)",
+    "preinstall": "$npm_execpath --silent run checkyarn",
+    "format": "prettier --write src/**/*.ts{,x}",
+    "lint": "eslint src/**/*.ts{,x}",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --coverage --watchAll",
+    "test:debug": "CI=false react-scripts --inspect-brk test --runInBand --no-cache --watchAll=false",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-typescript": "^9.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "prettier": "^2.1.1"
+  },
+  "jest": {
+    "coverageReporters": ["text-summary", "html"],
+    "snapshotSerializers": [
+      "jest-emotion"
+    ]
+  },
+  "engines": {
+    "node": ">=12 <14",
+    "yarn": "^1.22.5"
+  }
+}
