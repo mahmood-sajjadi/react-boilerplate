@@ -14,7 +14,7 @@ This is a react-boilerplate. there is no real use case for this code but all tec
 ## Clone repo
 ```bash
 git clone https://github.com/mahmood-sajjadi/react-boilerplate.git
-cd pks_-memory_game
+cd react-boilerplate
 ```
 
 ## Add environment settings
@@ -84,22 +84,16 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Contributing
-The original purpose of this repository is to pass the answer of this coding challenge back to PKS.
-But I want to use this opportunity to ask all of you to review and suggest better way(performance and quality) to implement this app.
-I tried to implement everything in few hours(including basic setup of repo) so there are many ways to improve this code, you are welcome to help me on this :wink:
+This is just another react-boilerplate to help me on start of any new react project.
+But I want to use this opportunity to ask all of you to review and suggest better way or more cool features for this react-boilerplate
+I tried to implement everything in few hours so there are many ways to improve this code and many other cool features which is missing, you are welcome to help me on this :wink:
+What do you included in your react-boilerplate?
 to do that please
-* create an issue in github in this repo https://github.com/mahmood-sajjadi/pks_-memory_game/issues
+* create an issue in github in this repo https://github.com/mahmood-sajjadi/react-boilerplate/issues
 * or fork this project and do the changes.
 
 ## What I like to do later (not ordered)
 * adding husky hooks
 * add more eslit rules and prettier
 * adding more inline-comments and maybe tsdoc to auto generate documentation
-* adding UI for end of the game(winning)
-* adding time before start of the game
-* counting number of wrong clicks
-* adding more unit tests
 * adding end to end testing with cypress
-* add better responsive design (support mobile)
-* add keyboard support and accessibility
-* improve random card selection service for better performance
