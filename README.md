@@ -67,6 +67,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `yarn doc` :books:
+
+Generate/Update TypeDoc documentation for project. result will be available under /docs folder
+
 ### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
@@ -95,5 +99,4 @@ to do that please
 ## What I like to do later (not ordered)
 * adding husky hooks
 * add more eslit rules and prettier
-* adding more inline-comments and maybe tsdoc to auto generate documentation
 * adding end to end testing with cypress
