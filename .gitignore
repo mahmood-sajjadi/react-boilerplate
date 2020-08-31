@@ -115,6 +115,9 @@ dist
 # production
 /build
 
+# documentation
+/docs
+
 # Code
 .vscode/*
 !.vscode/settings.json
