@@ -4,11 +4,12 @@ This is a react-boilerplate. there is no real use case for this code but all tec
 # Dependencies
 * NodeJS 12 (nvm is preferred, .nvmrc exists)
 * Yarn 1.22 or above
-* Typescript 3.8.0
+* Typescript 4.0.2
 * Jest
 * Es-Lint with typescript support
 * Prettier
 * emotionJs
+* TypeDoc
 
 # Setup local :computer:
 ## Clone repo
